@@ -1,0 +1,42 @@
+{
+  "name": "node-zanox",
+  "version": "1.0.0",
+  "description": "A library for the Zanox Publisher API",
+  "author": "Luan Muniz <luan@luanmuniz.com.br> (http://github.com/luanmuniz)",
+  "homepage": "https://github.com/luanmuniz/node-zanox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luanmuniz/node-zanox.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://luanmuniz.mit-license.org/"
+    }
+  ],
+  "bugs": "https://github.com/luanmuniz/node-zanox/issues",
+  "contributors": "https://github.com/ZimpFidelidade/painel-participante/graphs/contributors",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "zanox",
+    "afiliate",
+    "lib",
+    "publisher",
+    "promise"
+  ],
+  "dependencies": {
+    "xml2js": "0.0.3",
+    "slug": "0.0.3",
+    "request-promise": "^0.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-duration": "0.0.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.0"
+  }
+}
