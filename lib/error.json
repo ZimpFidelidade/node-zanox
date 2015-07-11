@@ -1,0 +1,18 @@
+{
+	"main": {
+		"0": "Request Error",
+		"1": "You need to pass ID and Secret to initialize the module.",
+		"2": "You need to initialize the module with your ID and Secret."
+	},
+
+	"profile": {
+		"1": "You need to pass your ID and the Object with the new params",
+		"2": "Your ID need to be only numbers",
+		"3": "The params need to be pass into an Object"
+	},
+
+	"adspace": {
+		"1": "You need to pass an ID",
+		"2": "You need to pass an ID"
+	}
+}
