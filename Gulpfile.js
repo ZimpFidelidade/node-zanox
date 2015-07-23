@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 	duration = require('gulp-duration'),
 	mocha = require('gulp-mocha');
 
-gulp.task('test', function() {
+gulp.task('lint', function() {
 	return gulp.src([ './lib/*.js', './index.js' ])
 		.pipe(jscs({
 			configPath: './.jscsrc'
@@ -16,7 +16,4 @@ gulp.task('test', function() {
 		.pipe(duration('Testing duration: '));
 });
 
-gulp.task('mocha', function () {
-    return gulp.src('test/test-*.js', { read: false })
-    	.pipe(mocha({reporter: 'nyan'}));
-});
+gulp.task('test', ['lint']);
